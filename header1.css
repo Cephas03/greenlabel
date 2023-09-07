@@ -1,0 +1,195 @@
+body {
+  max-width: 1000px;
+  margin: auto;  
+  padding-top: 20px;
+  
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .header-menu-list a {
+    display: none;
+    }
+  .right-header button {
+    display: none;
+  }
+  .header2 {    
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .hamburger-mobile {
+    position: absolute;
+    display: block;
+    right: 20px;        
+    }  
+}
+
+@media only screen and (min-width: 700px) {
+  .hamburger-mobile {
+    display: none;    
+   }
+}
+
+.right-header {  
+  position: absolute;
+  right: 0;
+}
+
+
+.header2 {
+  display: flex;
+  position: relative;
+  align-items: center;  
+  right: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  margin-top: 0;
+  z-index: 10;
+  border: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(243, 243, 243);  
+}
+
+.logo {
+  height: 100px;
+  margin-left: 10px;
+}
+
+.call-button1 {
+  background-color: rgb(0, 59, 0);
+  color: rgb(224, 224, 3);
+  border: none;  
+  border-radius: 2px;
+  padding: 3px;
+  font-size: 10px;
+  font-family: Tahoma;
+ }
+
+.menu-dropdown a {  
+  display: flex;
+  background-color: rgb(4, 160, 4);
+  padding: 5px 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+.menu-dropdown {
+  position: absolute;
+  display: none;
+  right: 10px;
+  margin-top: 20px;
+}
+
+.mobile-screen:hover .menu-dropdown{
+  display: block;
+}
+.mobile-screen a:hover {
+  background-color: rgb(1, 97, 1);
+  cursor: pointer;
+}
+
+.hamburger-menu,
+.hamburger-mobile {
+  width: 20px;
+  padding-left: 12px;  
+ }
+ 
+ .header-menu-list {
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: space-between;
+  left: 0;
+  right: 10px; 
+  margin: 8px 0px 8px 0px;       
+ }
+
+.header-dropdown-container {
+  position: relative;
+}
+
+ .header-menu-dropdown {
+  position: absolute;
+  display: none;
+  background-color: rgb(214, 210, 210);
+  margin-left: 5px;
+  z-index: 10;
+ }
+
+ .header-menu-dropdown a {
+  display: flex;
+  width: 120px;
+  padding: 3px 8px;
+  cursor: pointer;
+ }
+
+ .header-dropdown-container:hover .header-menu-dropdown {
+  display: block;
+ }
+
+ .header-menu-dropdown a:hover {
+  background-color: grey;
+  color: white;
+ }
+
+ .home,
+ .about,
+ .service-providers,
+ .certification,
+ .media-gallery,
+ .events,
+ .faqs,
+ .contact {
+  text-decoration: none;
+  color: rgb(104, 103, 103);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .home:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .about:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .service-providers:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .certification:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .media-gallery:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .events:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ .faqs:hover {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  font-size: 14px;
+ }
+ 

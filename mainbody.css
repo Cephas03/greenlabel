@@ -1,0 +1,143 @@
+@media only screen and (max-width: 700px) {
+  .main-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;    
+    }
+  .main-right {
+    display: block;    
+    padding-left: 0;
+    width: 100%;
+  }
+  .main-left {
+    display: block;
+    width: 100%;   
+  }
+  
+  .partners-logo {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+   }
+   .media-button,
+   .media-button2 {
+    margin-right: 0px;
+   }
+}
+
+@media only screen and (min-width: 700px) {
+  .main-text {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+   }
+   .high-quality {
+    font-size: 28px;
+   }
+   .partners-logo {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
+   }
+}
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+.pdf-download {
+  margin-right: 220px;
+  background-color: rgb(228, 228, 228);
+  box-shadow: 1px 1px 2px rgba(187, 187, 187, 0.7);
+ }
+ .media-links {
+  display: flex;
+  margin-top: 50px; 
+  align-items: center;
+  width: 100%;
+ }
+ .main-text-sub {
+  color: gray;
+  line-height: 20px;
+  font-size: 15px;
+  
+ }
+ .media-icon {
+  height: 15px;
+  
+ }
+ .media-button {
+  background-color: rgb(231, 229, 229);
+  padding: 4px 8px;
+  border: none;
+ }
+ .media-button2 {
+  background-color: rgb(231, 229, 229);
+  padding: 4px 6px;
+  border: none;
+ }
+ .body-image1 {
+  display: flex;
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+ }
+ .body-image {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;  
+ }
+ .main-right {
+  padding-left: 0px;  
+ }
+ .main-left {
+  margin-top: 40px;
+  min-width: 450px;
+  padding-right: 10px;  
+ }
+ .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  position: absolute;
+  padding: 14px 20px 14px 40px;   
+  text-align: left;
+  left: -30px;
+  font-size: 30px;
+  color: rgb(85, 85, 85);
+  bottom: 40px;
+  background-color: white;
+  border-radius: 30px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(109, 109, 109);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: rgb(71, 71, 71);
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes autoplay {
+  from: {opacity: 0.4;}
+}
+
+.moveToTop {
+  background-color: rgb(57, 57, 240);
+  color: white;
+  padding: 8px 18px;
+  position: fixed;
+  right: -4px;
+  bottom: 10px;
+  border-radius: 4px;
+}
